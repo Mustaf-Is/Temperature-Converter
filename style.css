@@ -3,11 +3,19 @@ body {
     align-content: center;
     place-items: center;
     font-family: 'cursive', monospace;
-    background-image: url(./hero-sky-dramatic-lightning-weather-shutterstock_2200924189.jpg);
+    background-image: url('./assets/images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center right;
+}
 
+@font-face {
+    font-family: 'digital-7';
+    src: local('Digital-7'),
+        url('./assets/fonts/digital-7.woff2') format('woff2'),
+        url('./assets/fonts/digital-7.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .container {
@@ -15,26 +23,29 @@ body {
     box-shadow: 1px 0 10px rgba(0, 0, 0, 0.4);
     padding: 25px;
     border-radius: 15px;
-    background-color: #d8e6e3;
+    background-color: rgba(86, 86, 86, 0.4);
     place-items: center;
 }
 
 h3 {
+    font-family: 'digital-7', cursive;
+    letter-spacing: 2px;
     text-align: center;
-    color: #10947e;
-    font-size: 1.5rem;
+    color: #1591f0;
+    font-size: 28px;
 }
 
 label {
-    color: #3d3d3c;
+    color: #c2dcef;
     display: flex;
+    font-size: 18px;
     justify-content: center;
 }
 
 input[type="number"] {
     padding: 10px;
     border-radius: 10px;
-    border: solid indigo 2px;
+    border: solid #67bdff 3px;
     width: 80%;
 }
 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="A temperature converter">
+     <meta name="author" content="Mustafë Ismajli">
+     <link rel="stylesheet" href="./style.css">
+     <title>Document</title>
+</head>
+
+<body>
+     <div class="container">
+          <form>
+               <h3>Temperature Converter</h3>
+               <label for="farenheit">
+                    <input name="convert" type="radio" id="farenheit" value="celsiusToFarenheit" checked />
+                    &deg;C to &deg;F
+               </label>
+               <label for="celsius">
+                    <input name="convert" type="radio" id="celsius" value="farenheitToCelsius" />
+                    &deg;F to &deg;C
+               </label>
+               <br>
+               <input type="number" placeholder="Enter the temperature in celsius" required />
+               <span id="unit"> &deg;C</span>
+               <br><br>
+               <button id="convertBtn" name="btn" type="submit">
+                    Convert
+               </button>
+               <p>
+                    Result:
+                    <span class="result">
+                    </span>
+               </p>
+          </form>
+     </div>
+
+</body>
+
+</html>

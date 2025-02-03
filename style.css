@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    align-content: center;
+    place-items: center;
+    font-family: 'cursive', monospace;
+    background-image: url(./hero-sky-dramatic-lightning-weather-shutterstock_2200924189.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.container {
+    width: 30%;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 0.4);
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #d8e6e3;
+    place-items: center;
+}
+
+h3 {
+    text-align: center;
+    color: #10947e;
+    font-size: 1.5rem;
+}
+
+label {
+    color: #3d3d3c;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid indigo 2px;
+    width: 80%;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    color: darkgreen;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    cursor: pointer;
+}
+
+.result {
+    color: darkgreen;
+    font-weight: 600;
+}
